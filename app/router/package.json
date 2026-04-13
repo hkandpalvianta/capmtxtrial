@@ -1,0 +1,15 @@
+{
+  "name": "capmtxtrial-router",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@sap/approuter": "^20",
+    "@sap/xsenv": "^5"
+  },
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  }
+}

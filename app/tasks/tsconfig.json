@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "rootDir": "./webapp",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "io/vianta/capmtxtrial/tasks/*": ["./webapp/*"]
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@sapui5/types",
+      "../../node_modules/@types",
+      "../../node_modules/@sapui5/types"
+    ]
+  },
+  "include": ["./webapp/**/*"]
+}

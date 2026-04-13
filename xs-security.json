@@ -1,0 +1,89 @@
+{
+  "xsappname": "capmtxtrial",
+  "tenant-mode": "shared",
+  "description": "CAP MTX Trial – Task Manager Security",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Viewer",
+      "description": "Read-only access to tasks"
+    },
+    {
+      "name": "$XSAPPNAME.Editor",
+      "description": "Create and update tasks"
+    },
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "Full administrative access"
+    },
+    {
+      "name": "$XSAPPNAME.Callback",
+      "description": "Callback scope for SaaS provisioning",
+      "grant-as-authority-to-apps": ["$XSAPPNAME(application,sap-provisioning,tenant-onboarding)"]
+    },
+    {
+      "name": "$XSAPPNAME.mtcallback",
+      "description": "MTX callback scope for multitenancy operations",
+      "grant-as-authority-to-apps": ["$XSAPPNAME(application,sap-provisioning,tenant-onboarding)"]
+    },
+    {
+      "name": "$XSAPPNAME.mtdeployment",
+      "description": "MTX deployment scope for tenant database operations",
+      "grant-as-authority-to-apps": ["$XSAPPNAME(application,sap-provisioning,tenant-onboarding)"]
+    },
+    {
+      "name": "uaa.user",
+      "description": "UAA user scope"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "Token_Exchange",
+      "description": "Token exchange for HTML5 app access",
+      "scope-references": ["uaa.user"]
+    },
+    {
+      "name": "Viewer",
+      "description": "Read access to tasks",
+      "scope-references": ["$XSAPPNAME.Viewer"],
+      "attribute-references": []
+    },
+    {
+      "name": "Editor",
+      "description": "Create and edit tasks",
+      "scope-references": ["$XSAPPNAME.Viewer", "$XSAPPNAME.Editor"],
+      "attribute-references": []
+    },
+    {
+      "name": "Admin",
+      "description": "Full administrative access",
+      "scope-references": ["$XSAPPNAME.Viewer", "$XSAPPNAME.Editor", "$XSAPPNAME.Admin"],
+      "attribute-references": []
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "CAPMTXTRIAL_Viewer",
+      "description": "Task Manager Viewer",
+      "role-template-references": ["$XSAPPNAME.Token_Exchange", "$XSAPPNAME.Viewer"]
+    },
+    {
+      "name": "CAPMTXTRIAL_Editor",
+      "description": "Task Manager Editor",
+      "role-template-references": ["$XSAPPNAME.Token_Exchange", "$XSAPPNAME.Editor"]
+    },
+    {
+      "name": "CAPMTXTRIAL_Admin",
+      "description": "Task Manager Admin",
+      "role-template-references": ["$XSAPPNAME.Token_Exchange", "$XSAPPNAME.Admin"]
+    }
+  ],
+  "oauth2-configuration": {
+    "token-validity": 43200,
+    "refresh-token-validity": 604800,
+    "redirect-uris": [
+      "https://*.cfapps.*.hana.ondemand.com/**",
+      "https://*.hana.ondemand.com/**",
+      "http://localhost:*/**"
+    ]
+  }
+}

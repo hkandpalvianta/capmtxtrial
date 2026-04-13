@@ -1,0 +1,174 @@
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:20.723612] Added process: "web" (STDOUT, API)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:20.731582] Created app with guid b6222948-22c4-4d59-8565-53cad5b65ce2 (STDOUT, API)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:20.828201] Updating process: "web" (STDOUT, API)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:20.885319] Scaling process: "web" (STDOUT, API)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:46.975699] Uploading app package for app with guid b6222948-22c4-4d59-8565-53cad5b65ce2 (STDOUT, API)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:47.208236] Updated app with guid b6222948-22c4-4d59-8565-53cad5b65ce2 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:57.071402] Creating build for app with guid b6222948-22c4-4d59-8565-53cad5b65ce2 (STDOUT, API)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:57.436995] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:57.480261] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:57.480342] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 113dcd09-ce1b-4989-8ed9-7e53e406781c (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:58.181502] Security group rules were updated (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:58.275040] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 113dcd09-ce1b-4989-8ed9-7e53e406781c (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:59.859823] Downloading app package... (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:47:59.933946] Downloaded app package (820B) (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:00.044501] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:00.045201] -----> Bootstrapping python (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:00.045478] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:00.045532] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:04.433144] -----> Installing binaries (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:04.433327] engines.node (package.json): unspecified (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:04.433445] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:04.433511] [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:04.433565] -----> Installing node 22.22.0 (STDOUT, STG)#
+#2026 04 12 13:48:06.981#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26297#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:04.433861] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/65c50d3a8311e7796847437aebc5aebd/node_22.22.0_linux_x64_cflinuxfs4_a73ffe6d.tgz] (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:06.987206] Using default npm version: 10.9.4 (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:06.987231] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:06.987388] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.339591] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.339614] -----> Creating runtime environment (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.342341] [34;1mPRO TIP:[0m It is recommended to vendor the application's Node.js dependencies (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.342359] Visit http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.342442] NODE_ENV=production (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.342667] NODE_HOME=/tmp/contents2181776099/deps/0/node (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.342847] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.342858] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.342861] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.342967] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.343217] -----> Building dependencies (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:07.343369] Installing node modules (package.json) (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.120618] added 236 packages, and audited 237 packages in 6s (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.120657] 21 packages are looking for funding (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.120663] run `npm fund` for details (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.139009] 15 vulnerabilities (8 low, 3 moderate, 3 high, 1 critical) (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.139036] To address issues that do not require attention, run: (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.139044] npm audit fix (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.139047] To address all issues (including breaking changes), run: (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.139051] npm audit fix --force (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.139055] Run `npm audit` for details. (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.140403] npm notice (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.140420] npm notice New major version of npm available! 10.9.4 -> 11.12.1 (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.140424] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.140428] npm notice To update run: npm install -g npm@11.12.1 (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.140431] npm notice (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.882927] [31;1m**WARNING**[0m Unmet dependencies don't fail npm install but may cause runtime issues (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.882953] See: https://github.com/npm/npm/issues/7494 (STDOUT, STG)#
+#2026 04 12 13:48:16.965#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26304#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:13.905324] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 04 12 13:48:26.975#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26311#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:25.757341] Exit status 0 (STDOUT, STG)#
+#2026 04 12 13:48:26.975#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26311#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:25.757400] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 04 12 13:48:26.975#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26311#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:25.757453] Uploading droplet... (STDOUT, STG)#
+#2026 04 12 13:48:26.975#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26311#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:25.757509] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 04 12 13:48:26.975#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26311#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:25.882708] Uploaded build artifacts cache (9.1M) (STDOUT, STG)#
+#2026 04 12 13:48:26.975#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26311#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:26.472127] Creating droplet for app with guid b6222948-22c4-4d59-8565-53cad5b65ce2 (STDOUT, API)#
+#2026 04 12 13:48:37.012#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26317#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:31.541466] Uploaded droplet (62.2M) (STDOUT, STG)#
+#2026 04 12 13:48:37.012#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26317#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:31.567114] Uploading complete (STDOUT, STG)#
+#2026 04 12 13:48:37.012#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26317#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:32.044737] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 113dcd09-ce1b-4989-8ed9-7e53e406781c (STDOUT, STG)#
+#2026 04 12 13:48:37.012#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26317#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:32.044782] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 113dcd09-ce1b-4989-8ed9-7e53e406781c (STDOUT, STG)#
+#2026 04 12 13:48:37.012#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26317#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:32.102518] Staging complete for build 113dcd09-ce1b-4989-8ed9-7e53e406781c (STDOUT, API)#
+#2026 04 12 13:48:37.012#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26317#
+[PollStageAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:35.215165] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 113dcd09-ce1b-4989-8ed9-7e53e406781c (STDOUT, STG)#
+#2026 04 12 13:48:47.040#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:37.089802] Updated app with guid b6222948-22c4-4d59-8565-53cad5b65ce2 ({:droplet_guid=>"dbe21d6b-4f3d-4b70-a2c8-dc01fcaf3e1b"}) (STDOUT, API)#
+#2026 04 12 13:48:47.040#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:37.296800] Creating revision for app with guid b6222948-22c4-4d59-8565-53cad5b65ce2 (STDOUT, API)#
+#2026 04 12 13:48:47.040#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:37.337296] Starting app with guid b6222948-22c4-4d59-8565-53cad5b65ce2 (STDOUT, API)#
+#2026 04 12 13:48:47.040#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:37.576233] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance e179d853-44fa-4282-7311-983a (STDOUT, CELL)#
+#2026 04 12 13:48:47.040#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:38.317279] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:48:47.040#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:38.407167] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance e179d853-44fa-4282-7311-983a (STDOUT, CELL)#
+#2026 04 12 13:48:47.040#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:39.020398] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:48:47.040#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:43.710534] Downloaded droplet (62.2M) (STDOUT, CELL)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:43.710736] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:43.850882] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:44.073674] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:44.549265] > capmtxtrial-router@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:44.549293] > node node_modules/@sap/approuter/approuter.js (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:44.920223] {"written_at":"2026-04-12T13:48:44.918Z","written_ts":1776001724918000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.32.3.6","component_type":"application","component_id":"b6222948-22c4-4d59-8565-53cad5b65ce2","component_name":"capmtxtrial-app","component_instance":-1,"source_instance":-1,"organization_id":"0b521505-80d2-404b-a0f9-020edf8cda9a","organization_name":"0d6c044ftrial","space_id":"2140e831-331d-48a2-bd4c-370bcef1094c","space_name":"dev","context_id":"","msg":"Dynamic log level switching not available"} (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:45.360548] {"written_at":"2026-04-12T13:48:45.354Z","written_ts":1776001725354000000,"csn_component":"-","correlation_id":"mnvtklnv","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"b6222948-22c4-4d59-8565-53cad5b65ce2","component_name":"capmtxtrial-app","component_instance":-1,"source_instance":-1,"organization_id":"0b521505-80d2-404b-a0f9-020edf8cda9a","organization_name":"0d6c044ftrial","space_id":"2140e831-331d-48a2-bd4c-370bcef1094c","space_name":"dev","context_id":"mnvtklnv","msg":"Application router version 16.9.0"} (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:45.360579] {"written_at":"2026-04-12T13:48:45.359Z","written_ts":1776001725359000000,"csn_component":"-","correlation_id":"mnvtklnz","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"b6222948-22c4-4d59-8565-53cad5b65ce2","component_name":"capmtxtrial-app","component_instance":-1,"source_instance":-1,"organization_id":"0b521505-80d2-404b-a0f9-020edf8cda9a","organization_name":"0d6c044ftrial","space_id":"2140e831-331d-48a2-bd4c-370bcef1094c","space_name":"dev","context_id":"mnvtklnz","msg":"No COOKIES environment variable"} (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:45.388391] (node:229) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead. (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:45.388420] (Use `node --trace-deprecation ...` to show where the warning was created) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.041#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-app#flowable-async-job-executor-thread-26324#
+[PollStartAppStatusExecution] b6222948-22c4-4d59-8565-53cad5b65ce2 [2026-04-12T13:48:45.421113] {"written_at":"2026-04-12T13:48:45.420Z","written_ts":1776001725420000000,"csn_component":"-","correlation_id":"mnvtklnv","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.32.3.6","component_type":"application","component_id":"b6222948-22c4-4d59-8565-53cad5b65ce2","component_name":"capmtxtrial-app","component_instance":-1,"source_instance":-1,"organization_id":"0b521505-80d2-404b-a0f9-020edf8cda9a","organization_name":"0d6c044ftrial","space_id":"2140e831-331d-48a2-bd4c-370bcef1094c","space_name":"dev","context_id":"mnvtklnv","msg":"Application router is listening on port: 8080"} (STDOUT, APP/PROC/WEB)#

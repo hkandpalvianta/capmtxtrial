@@ -1,0 +1,1088 @@
+{
+  "namespace": "io.capmtxtrial",
+  "definitions": {
+    "io.capmtxtrial.TaskStatus": {
+      "kind": "type",
+      "type": "cds.String",
+      "length": 20,
+      "enum": {
+        "Open": {},
+        "InProgress": {},
+        "Done": {},
+        "Cancelled": {}
+      }
+    },
+    "io.capmtxtrial.TaskPriority": {
+      "kind": "type",
+      "type": "cds.String",
+      "length": 10,
+      "enum": {
+        "Low": {},
+        "Medium": {},
+        "High": {}
+      }
+    },
+    "io.capmtxtrial.Tasks": {
+      "kind": "entity",
+      "includes": [
+        "cuid",
+        "managed"
+      ],
+      "elements": {
+        "title": {
+          "@mandatory": true,
+          "type": "cds.String",
+          "length": 100
+        },
+        "description": {
+          "type": "cds.String",
+          "length": 500
+        },
+        "status": {
+          "@assert.range": true,
+          "type": "io.capmtxtrial.TaskStatus",
+          "default": {
+            "val": "Open"
+          }
+        },
+        "priority": {
+          "@assert.range": true,
+          "type": "io.capmtxtrial.TaskPriority",
+          "default": {
+            "val": "Medium"
+          }
+        },
+        "dueDate": {
+          "type": "cds.Date"
+        }
+      }
+    },
+    "TaskService": {
+      "@source": "srv/task-service.cds",
+      "kind": "service",
+      "@path": "/task",
+      "@requires": "authenticated-user"
+    },
+    "TaskService.Tasks": {
+      "kind": "entity",
+      "@UI.HeaderInfo.TypeName": "Task",
+      "@UI.HeaderInfo.TypeNamePlural": "Tasks",
+      "@UI.HeaderInfo.Title.Value": {
+        "=": "title"
+      },
+      "@UI.HeaderInfo.Description.Value": {
+        "=": "status"
+      },
+      "@UI.PresentationVariant.SortOrder": [
+        {
+          "$Type": "Common.SortOrderType",
+          "Property": {
+            "=": "createdAt"
+          },
+          "Descending": true
+        }
+      ],
+      "@UI.PresentationVariant.Visualizations": [
+        "@UI.LineItem"
+      ],
+      "@UI.SelectionFields": [
+        {
+          "=": "title"
+        },
+        {
+          "=": "status"
+        },
+        {
+          "=": "priority"
+        },
+        {
+          "=": "dueDate"
+        }
+      ],
+      "@UI.LineItem": [
+        {
+          "Value": {
+            "=": "title"
+          },
+          "@UI.Importance": {
+            "#": "High"
+          }
+        },
+        {
+          "Value": {
+            "=": "status"
+          },
+          "@UI.Importance": {
+            "#": "High"
+          }
+        },
+        {
+          "Value": {
+            "=": "priority"
+          },
+          "@UI.Importance": {
+            "#": "Medium"
+          }
+        },
+        {
+          "Value": {
+            "=": "dueDate"
+          },
+          "@UI.Importance": {
+            "#": "Medium"
+          }
+        },
+        {
+          "Value": {
+            "=": "createdAt"
+          },
+          "@UI.Importance": {
+            "#": "Low"
+          }
+        },
+        {
+          "Value": {
+            "=": "createdBy"
+          },
+          "@UI.Importance": {
+            "#": "Low"
+          }
+        }
+      ],
+      "@UI.FieldGroup#General.Data": [
+        {
+          "Value": {
+            "=": "title"
+          }
+        },
+        {
+          "Value": {
+            "=": "description"
+          }
+        },
+        {
+          "Value": {
+            "=": "status"
+          }
+        },
+        {
+          "Value": {
+            "=": "priority"
+          }
+        },
+        {
+          "Value": {
+            "=": "dueDate"
+          }
+        }
+      ],
+      "@UI.FieldGroup#Audit.Data": [
+        {
+          "Value": {
+            "=": "createdAt"
+          }
+        },
+        {
+          "Value": {
+            "=": "createdBy"
+          }
+        },
+        {
+          "Value": {
+            "=": "modifiedAt"
+          }
+        },
+        {
+          "Value": {
+            "=": "modifiedBy"
+          }
+        }
+      ],
+      "@UI.Facets": [
+        {
+          "$Type": "UI.ReferenceFacet",
+          "Label": "Task Details",
+          "Target": "@UI.FieldGroup#General"
+        },
+        {
+          "$Type": "UI.ReferenceFacet",
+          "Label": "Audit Info",
+          "Target": "@UI.FieldGroup#Audit"
+        }
+      ],
+      "projection": {
+        "from": {
+          "ref": [
+            "io.capmtxtrial.Tasks"
+          ]
+        }
+      }
+    },
+    "cds.outbox.Messages": {
+      "kind": "entity",
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.UUID"
+        },
+        "timestamp": {
+          "type": "cds.Timestamp"
+        },
+        "target": {
+          "type": "cds.String"
+        },
+        "msg": {
+          "type": "cds.LargeString"
+        },
+        "attempts": {
+          "type": "cds.Integer",
+          "default": {
+            "val": 0
+          }
+        },
+        "partition": {
+          "type": "cds.Integer",
+          "default": {
+            "val": 0
+          }
+        },
+        "lastError": {
+          "type": "cds.LargeString"
+        },
+        "lastAttemptTimestamp": {
+          "type": "cds.Timestamp"
+        },
+        "status": {
+          "type": "cds.String",
+          "length": 23
+        },
+        "task": {
+          "type": "cds.String",
+          "length": 255
+        },
+        "appid": {
+          "type": "cds.String",
+          "length": 255
+        }
+      }
+    },
+    "cds.xt.MTXServices": {
+      "@source": "@sap/cds-mtxs/srv/bootstrap.cds",
+      "kind": "service",
+      "@protocol": "none",
+      "@impl": "@sap/cds-mtxs/srv/bootstrap.js"
+    },
+    "cds.xt.SaasProvisioningService": {
+      "@source": "@sap/cds-mtxs/srv/cf/saas-provisioning-service.cds",
+      "kind": "service",
+      "@protocol": "rest",
+      "@path": "/-/cds/saas-provisioning",
+      "@requires": [
+        "cds.Subscriber",
+        "mtcallback",
+        "internal-user"
+      ],
+      "@impl": "@sap/cds-mtxs/srv/cf/saas-provisioning-service.js"
+    },
+    "cds.xt.SaasProvisioningService.tenant": {
+      "kind": "entity",
+      "@open": true,
+      "@cds.persistence.skip": true,
+      "elements": {
+        "subscribedTenantId": {
+          "@assert.format": "^[^*]+$",
+          "key": true,
+          "type": "cds.String"
+        },
+        "subscribedSubaccountId": {
+          "type": "cds.String",
+          "length": 36
+        },
+        "subscribedSubdomain": {
+          "type": "cds.String",
+          "length": 256
+        },
+        "subscriptionAppName": {
+          "type": "cds.String",
+          "length": 256
+        },
+        "eventType": {
+          "type": "cds.String",
+          "length": 64
+        }
+      }
+    },
+    "cds.xt.SaasProvisioningService.dependencies": {
+      "kind": "function",
+      "returns": {
+        "items": {
+          "elements": {
+            "xsappname": {
+              "type": "cds.String"
+            }
+          }
+        }
+      }
+    },
+    "cds.xt.SaasProvisioningService.UpgradeOptions": {
+      "kind": "type",
+      "@open": true,
+      "elements": {}
+    },
+    "cds.xt.SaasProvisioningService.UpgradeResults": {
+      "kind": "type",
+      "@open": true,
+      "elements": {}
+    },
+    "cds.xt.SaasProvisioningService.upgrade": {
+      "kind": "action",
+      "params": {
+        "tenants": {
+          "items": {
+            "type": "cds.String"
+          }
+        },
+        "options": {
+          "type": "cds.xt.SaasProvisioningService.UpgradeOptions"
+        }
+      },
+      "returns": {
+        "type": "cds.xt.SaasProvisioningService.UpgradeResults"
+      }
+    },
+    "cds.xt.SaasProvisioningService.getAppUrl": {
+      "kind": "function",
+      "params": {
+        "subscriptionPayload": {
+          "@open": true,
+          "elements": {}
+        },
+        "subscriptionHeaders": {
+          "@open": true,
+          "elements": {}
+        }
+      },
+      "returns": {
+        "type": "cds.String"
+      }
+    },
+    "cds.xt.DeploymentService": {
+      "@source": "@sap/cds-mtxs/srv/deployment-service.cds",
+      "kind": "service",
+      "@protocol": "rest",
+      "@requires": [
+        "cds.Subscriber",
+        "internal-user"
+      ],
+      "@path": "/-/cds/deployment",
+      "@impl": "@sap/cds-mtxs/srv/deployment-service.js"
+    },
+    "cds.xt.DeploymentService.subscribe": {
+      "kind": "action",
+      "params": {
+        "tenant": {
+          "@mandatory": true,
+          "type": "cds.String"
+        },
+        "metadata": {
+          "@open": true,
+          "elements": {}
+        },
+        "options": {
+          "@open": true,
+          "elements": {}
+        }
+      }
+    },
+    "cds.xt.DeploymentService.unsubscribe": {
+      "kind": "action",
+      "params": {
+        "tenant": {
+          "@mandatory": true,
+          "type": "cds.String"
+        },
+        "options": {
+          "@open": true,
+          "elements": {}
+        }
+      }
+    },
+    "cds.xt.DeploymentService.extend": {
+      "kind": "action",
+      "params": {
+        "tenant": {
+          "@mandatory": true,
+          "type": "cds.String"
+        },
+        "options": {
+          "@open": true,
+          "elements": {}
+        }
+      }
+    },
+    "cds.xt.DeploymentService.upgrade": {
+      "kind": "action",
+      "params": {
+        "tenant": {
+          "@mandatory": true,
+          "type": "cds.String"
+        },
+        "options": {
+          "@open": true,
+          "elements": {}
+        }
+      }
+    },
+    "cds.xt.DeploymentService.deploy": {
+      "kind": "action",
+      "params": {
+        "tenant": {
+          "@mandatory": true,
+          "type": "cds.String"
+        },
+        "options": {
+          "@open": true,
+          "elements": {}
+        }
+      }
+    },
+    "cds.xt.DeploymentService.tenantsByDb": {
+      "kind": "function",
+      "@requires": [
+        "cds.Developer",
+        "internal-user"
+      ],
+      "params": {
+        "tenants": {
+          "items": {
+            "type": "cds.String"
+          }
+        },
+        "metadata": {
+          "type": "cds.Boolean"
+        }
+      },
+      "returns": {
+        "elements": {}
+      }
+    },
+    "cds.xt.DeploymentService.getTablesDeep": {
+      "kind": "function",
+      "@requires": [
+        "cds.Developer",
+        "internal-user"
+      ],
+      "params": {
+        "tenant": {
+          "@mandatory": true,
+          "type": "cds.String"
+        }
+      },
+      "returns": {
+        "items": {
+          "elements": {}
+        }
+      }
+    },
+    "cds.xt.DeploymentService.getTables": {
+      "kind": "function",
+      "params": {
+        "tenant": {
+          "@mandatory": true,
+          "type": "cds.String"
+        }
+      },
+      "returns": {
+        "items": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "cds.xt.DeploymentService.getColumns": {
+      "kind": "function",
+      "params": {
+        "tenant": {
+          "@mandatory": true,
+          "type": "cds.String"
+        },
+        "table": {
+          "@mandatory": true,
+          "type": "cds.String"
+        },
+        "params": {
+          "@open": true,
+          "elements": {}
+        }
+      },
+      "returns": {
+        "items": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "cds.xt.DeploymentService.getTenants": {
+      "kind": "function",
+      "params": {
+        "options": {
+          "@open": true,
+          "elements": {}
+        }
+      },
+      "returns": {
+        "items": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "cds.xt.DeploymentService.getContainers": {
+      "kind": "function",
+      "params": {
+        "options": {
+          "@open": true,
+          "elements": {}
+        }
+      },
+      "returns": {
+        "items": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "Language": {
+      "kind": "type",
+      "@title": "{i18n>Language}",
+      "@description": "{i18n>LanguageCode.Description}",
+      "type": "cds.Association",
+      "target": "sap.common.Languages"
+    },
+    "Currency": {
+      "kind": "type",
+      "@title": "{i18n>Currency}",
+      "@description": "{i18n>CurrencyCode.Description}",
+      "type": "cds.Association",
+      "target": "sap.common.Currencies"
+    },
+    "Country": {
+      "kind": "type",
+      "@title": "{i18n>Country}",
+      "@description": "{i18n>CountryCode.Description}",
+      "type": "cds.Association",
+      "target": "sap.common.Countries"
+    },
+    "Timezone": {
+      "kind": "type",
+      "type": "cds.Association",
+      "target": "sap.common.Timezones"
+    },
+    "sap.common": {
+      "kind": "context"
+    },
+    "sap.common.Locale": {
+      "kind": "type",
+      "@title": "{i18n>LanguageCode}",
+      "type": "cds.String",
+      "length": 14
+    },
+    "sap.common.Languages": {
+      "kind": "entity",
+      "includes": [
+        "sap.common.CodeList"
+      ],
+      "elements": {
+        "code": {
+          "@Common.Text": {
+            "=": "name"
+          },
+          "key": true,
+          "type": "sap.common.Locale"
+        }
+      }
+    },
+    "sap.common.Countries": {
+      "kind": "entity",
+      "includes": [
+        "sap.common.CodeList"
+      ],
+      "elements": {
+        "code": {
+          "@title": "{i18n>CountryCode}",
+          "@Common.Text": {
+            "=": "name"
+          },
+          "key": true,
+          "type": "cds.String",
+          "length": 3
+        }
+      }
+    },
+    "sap.common.Currencies": {
+      "kind": "entity",
+      "includes": [
+        "sap.common.CodeList"
+      ],
+      "elements": {
+        "code": {
+          "@title": "{i18n>CurrencyCode}",
+          "@Common.Text": {
+            "=": "name"
+          },
+          "key": true,
+          "type": "cds.String",
+          "length": 3
+        },
+        "symbol": {
+          "@title": "{i18n>CurrencySymbol}",
+          "type": "cds.String",
+          "length": 5
+        },
+        "minorUnit": {
+          "@title": "{i18n>CurrencyMinorUnit}",
+          "type": "cds.Int16"
+        }
+      }
+    },
+    "sap.common.Timezones": {
+      "kind": "entity",
+      "includes": [
+        "sap.common.CodeList"
+      ],
+      "elements": {
+        "code": {
+          "@title": "{i18n>TimeZoneCode}",
+          "key": true,
+          "type": "cds.String",
+          "length": 100
+        }
+      }
+    },
+    "sap.common.CodeList": {
+      "kind": "aspect",
+      "@cds.autoexpose": true,
+      "@cds.persistence.skip": "if-unused",
+      "@UI.Identification": [
+        {
+          "Value": {
+            "=": "name"
+          }
+        }
+      ],
+      "@cds.odata.valuelist": true,
+      "elements": {
+        "name": {
+          "@title": "{i18n>Name}",
+          "localized": true,
+          "type": "cds.String",
+          "length": 255
+        },
+        "descr": {
+          "@title": "{i18n>Description}",
+          "localized": true,
+          "type": "cds.String",
+          "length": 1000
+        }
+      }
+    },
+    "sap.common.TextsAspect": {
+      "kind": "aspect",
+      "elements": {
+        "locale": {
+          "key": true,
+          "type": "sap.common.Locale"
+        }
+      }
+    },
+    "sap.common.FlowHistory": {
+      "kind": "aspect",
+      "@cds.persistence.skip": "if-unused",
+      "elements": {
+        "transitions_": {
+          "@odata.draft.enabled": false,
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": {
+            "elements": {
+              "timestamp": {
+                "key": true,
+                "type": {
+                  "ref": [
+                    "managed",
+                    "createdAt"
+                  ]
+                }
+              },
+              "user": {
+                "type": {
+                  "ref": [
+                    "managed",
+                    "createdBy"
+                  ]
+                }
+              },
+              "status": {
+                "type": "cds.String"
+              },
+              "comment": {
+                "type": "cds.String"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cuid": {
+      "kind": "aspect",
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.UUID"
+        }
+      }
+    },
+    "managed": {
+      "kind": "aspect",
+      "elements": {
+        "createdAt": {
+          "@cds.on.insert": {
+            "=": "$now"
+          },
+          "@UI.HiddenFilter": true,
+          "@UI.ExcludeFromNavigationContext": true,
+          "@Core.Immutable": true,
+          "@title": "{i18n>CreatedAt}",
+          "@readonly": true,
+          "type": "cds.Timestamp"
+        },
+        "createdBy": {
+          "@cds.on.insert": {
+            "=": "$user"
+          },
+          "@UI.HiddenFilter": true,
+          "@UI.ExcludeFromNavigationContext": true,
+          "@Core.Immutable": true,
+          "@title": "{i18n>CreatedBy}",
+          "@readonly": true,
+          "type": "User"
+        },
+        "modifiedAt": {
+          "@cds.on.insert": {
+            "=": "$now"
+          },
+          "@cds.on.update": {
+            "=": "$now"
+          },
+          "@UI.HiddenFilter": true,
+          "@UI.ExcludeFromNavigationContext": true,
+          "@title": "{i18n>ChangedAt}",
+          "@readonly": true,
+          "type": "cds.Timestamp"
+        },
+        "modifiedBy": {
+          "@cds.on.insert": {
+            "=": "$user"
+          },
+          "@cds.on.update": {
+            "=": "$user"
+          },
+          "@UI.HiddenFilter": true,
+          "@UI.ExcludeFromNavigationContext": true,
+          "@title": "{i18n>ChangedBy}",
+          "@readonly": true,
+          "type": "User"
+        }
+      }
+    },
+    "temporal": {
+      "kind": "aspect",
+      "elements": {
+        "validFrom": {
+          "@cds.valid.from": true,
+          "type": "cds.Timestamp"
+        },
+        "validTo": {
+          "@cds.valid.to": true,
+          "type": "cds.Timestamp"
+        }
+      }
+    },
+    "User": {
+      "kind": "type",
+      "@title": "{i18n>UserID}",
+      "@description": "{i18n>UserID.Description}",
+      "type": "cds.String",
+      "length": 255
+    },
+    "cds.xt.JobsService": {
+      "@source": "@sap/cds-mtxs/srv/jobs-service.cds",
+      "kind": "service",
+      "@path": "/-/cds/jobs",
+      "@protocol": "rest",
+      "@impl": "@sap/cds-mtxs/srv/jobs-service.js"
+    },
+    "cds.xt.JobsService.Set": {
+      "kind": "type",
+      "elements": {}
+    },
+    "cds.xt.JobsService.enqueue": {
+      "kind": "action",
+      "@open": true,
+      "@requires": [
+        "internal-user",
+        "cds.Subscriber",
+        "mtcallback"
+      ],
+      "params": {
+        "service": {
+          "type": "cds.String"
+        },
+        "op": {
+          "type": "cds.String"
+        },
+        "clusters": {
+          "@cds.validate": false,
+          "items": {
+            "type": "cds.xt.JobsService.Set"
+          }
+        },
+        "args": {
+          "@cds.validate": false,
+          "items": {
+            "elements": {}
+          }
+        },
+        "callback": {
+          "@cds.validate": false,
+          "elements": {}
+        }
+      },
+      "returns": {
+        "type": "cds.xt.JobsService.Jobs"
+      }
+    },
+    "cds.xt.JobsService.pollJob": {
+      "kind": "function",
+      "@open": true,
+      "params": {
+        "ID": {
+          "type": "cds.String"
+        }
+      },
+      "returns": {
+        "elements": {}
+      }
+    },
+    "cds.xt.JobsService.pollTask": {
+      "kind": "function",
+      "@open": true,
+      "params": {
+        "ID": {
+          "type": "cds.String"
+        }
+      },
+      "returns": {
+        "elements": {}
+      }
+    },
+    "cds.xt.JobsService.Jobs": {
+      "kind": "entity",
+      "@cds.persistence.exists": true,
+      "@readonly": true,
+      "projection": {
+        "from": {
+          "ref": [
+            "cds.xt.Jobs"
+          ]
+        }
+      }
+    },
+    "cds.xt.JobsService.Tasks": {
+      "kind": "entity",
+      "@cds.persistence.exists": true,
+      "@readonly": true,
+      "projection": {
+        "from": {
+          "ref": [
+            "cds.xt.Tasks"
+          ]
+        }
+      }
+    },
+    "cds.xt.JobsService.config": {
+      "kind": "function",
+      "@private": true,
+      "@requires": [
+        "internal-user",
+        "cds.Developer"
+      ],
+      "returns": {
+        "elements": {}
+      }
+    },
+    "cds.xt.Tenants": {
+      "kind": "entity",
+      "@cds.persistence.exists": true,
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.String"
+        },
+        "metadata": {
+          "type": "cds.LargeString"
+        },
+        "createdAt": {
+          "@cds.on.insert": {
+            "=": "$now"
+          },
+          "type": "cds.Timestamp"
+        },
+        "modifiedAt": {
+          "@cds.on.insert": {
+            "=": "$now"
+          },
+          "@cds.on.update": {
+            "=": "$now"
+          },
+          "type": "cds.Timestamp"
+        },
+        "schema": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "cds.xt.Jobs": {
+      "kind": "entity",
+      "@cds.persistence.exists": true,
+      "elements": {
+        "ID": {
+          "key": true,
+          "type": "cds.String"
+        },
+        "status": {
+          "type": "cds.xt.Status",
+          "default": {
+            "#": "QUEUED"
+          }
+        },
+        "service": {
+          "type": "cds.String"
+        },
+        "op": {
+          "type": "cds.String"
+        },
+        "error": {
+          "type": "cds.String"
+        },
+        "result": {
+          "type": "cds.LargeString"
+        },
+        "createdAt": {
+          "@cds.on.insert": {
+            "=": "$now"
+          },
+          "type": "cds.Timestamp"
+        },
+        "modifiedAt": {
+          "@cds.on.insert": {
+            "=": "$now"
+          },
+          "@cds.on.update": {
+            "=": "$now"
+          },
+          "type": "cds.Timestamp"
+        },
+        "tasks": {
+          "type": "cds.Composition",
+          "cardinality": {
+            "max": "*"
+          },
+          "target": "cds.xt.Tasks",
+          "on": [
+            {
+              "ref": [
+                "tasks",
+                "job"
+              ]
+            },
+            "=",
+            {
+              "ref": [
+                "$self"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "cds.xt.Tasks": {
+      "kind": "entity",
+      "@cds.persistence.exists": true,
+      "elements": {
+        "job": {
+          "key": true,
+          "type": "cds.Association",
+          "target": "cds.xt.Jobs"
+        },
+        "ID": {
+          "key": true,
+          "type": "cds.String"
+        },
+        "tenant": {
+          "type": "cds.String",
+          "length": 100
+        },
+        "service": {
+          "type": "cds.String"
+        },
+        "op": {
+          "type": "cds.String"
+        },
+        "error": {
+          "type": "cds.String"
+        },
+        "status": {
+          "type": "cds.xt.Status",
+          "default": {
+            "#": "QUEUED"
+          }
+        },
+        "createdAt": {
+          "@cds.on.insert": {
+            "=": "$now"
+          },
+          "type": "cds.Timestamp"
+        },
+        "modifiedAt": {
+          "@cds.on.insert": {
+            "=": "$now"
+          },
+          "@cds.on.update": {
+            "=": "$now"
+          },
+          "type": "cds.Timestamp"
+        },
+        "database": {
+          "type": "cds.String"
+        }
+      }
+    },
+    "cds.xt.Status": {
+      "kind": "type",
+      "type": "cds.String",
+      "enum": {
+        "QUEUED": {},
+        "RUNNING": {},
+        "FINISHED": {},
+        "CANCELLED": {},
+        "TIMEOUT": {},
+        "FAILED": {}
+      }
+    }
+  },
+  "meta": {
+    "creator": "CDS Compiler v6.8.0",
+    "compilerCsnFlavor": "xtended",
+    "flavor": "xtended"
+  },
+  "$version": "2.0"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "capmtxtrial-mtx-sidecar",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@sap/cds": "^9",
+    "@sap/cds-mtxs": "^3",
+    "@cap-js/hana": "^2",
+    "@sap/xssec": "^4"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "profile": "mtx-sidecar",
+    "server": {
+      "[development]": {
+        "port": 4005
+      }
+    },
+    "requires": {
+      "[development]": {
+        "db": {
+          "kind": "sqlite",
+          "credentials": {
+            "url": "../../db.sqlite"
+          }
+        }
+      },
+      "[production]": {
+        "db": {
+          "kind": "hana",
+          "deploy-format": "hdbtable"
+        },
+        "auth": {
+          "kind": "xsuaa",
+          "restrict_all_services": false
+        },
+        "html5-host": true,
+        "html5-runtime": true,
+        "destinations": {
+          "vcap": {
+            "label": "destination"
+          },
+          "subscriptionDependency": "xsappname"
+        }
+      }
+    }
+  }
+}

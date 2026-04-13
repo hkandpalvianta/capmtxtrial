@@ -1,0 +1,287 @@
+_schema-version: 3.3.0
+ID: capmtxtrial
+description: Trial-compatible Multi-tenant CAP Task Manager
+version: 1.0.0
+
+# ── Services removed vs. a full BTP deployment (not available on trial) ────────
+#   - cloud-logging      (no free plan)
+#   - build-workzone-standard (not available)
+#   - identity / IAS     (not available)
+#   - connectivity       (not needed for this app)
+# ──────────────────────────────────────────────────────────────────────────────
+
+modules:
+
+# ── MTX Sidecar ───────────────────────────────────────────────────────────────
+- name: capmtxtrial-mtx-sidecar
+  type: nodejs
+  path: gen/mtx/sidecar
+  properties:
+    EXIT_PROCESS_ON_UNHANDLED_EXCEPTION: true
+  requires:
+  - name: capmtxtrial-uaa
+  - name: capmtxtrial-registry
+  - name: capmtxtrial-service-manager
+  - name: capmtxtrial-html5-repo-host
+  - name: capmtxtrial-html5-repo-runtime
+  - name: capmtxtrial-destination
+  - name: app-api
+    properties:
+      CDS_MULTITENANCY_APPUI_TENANTSEPARATOR: '-'
+      CDS_MULTITENANCY_APPUI_URL: ~{url}
+      SUBSCRIPTION_URL: ~{app-protocol}://\${tenant_subdomain}-~{app-uri}
+  provides:
+  - name: mtx-sidecar-api
+    properties:
+      mtx-sidecar-url: ${default-url}
+  - name: mtx-api
+    properties:
+      mtx-url: ${default-url}
+  parameters:
+    buildpack: nodejs_buildpack
+    disk-quota: 512M
+    memory: 256M
+    health-check-type: http
+    health-check-http-endpoint: /health
+  build-parameters:
+    builder: npm
+
+# ── CAP Backend Service ────────────────────────────────────────────────────────
+- name: capmtxtrial-srv
+  type: nodejs
+  path: gen/srv
+  properties:
+    SAP_JWT_TRUST_ACL: '[{"clientid":"*","identityzone":"*"}]'
+  requires:
+  - name: capmtxtrial-uaa
+  - name: capmtxtrial-service-manager
+  - name: capmtxtrial-destination
+  - name: app-api
+    properties:
+      CDS_MULTITENANCY_APPUI_TENANTSEPARATOR: '-'
+      CDS_MULTITENANCY_APPUI_URL: ~{url}
+  - name: mtx-sidecar-api
+    group: destinations
+    properties:
+      forwardAuthToken: true
+      name: mtx-sidecar
+      url: ~{mtx-sidecar-url}
+  provides:
+  - name: srv-api
+    properties:
+      srv-url: ${default-url}
+  parameters:
+    buildpack: nodejs_buildpack
+    disk-quota: 1024M
+    memory: 512M
+    health-check-type: http
+    health-check-http-endpoint: /health
+
+# ── Approuter ─────────────────────────────────────────────────────────────────
+- name: capmtxtrial-app
+  type: approuter.nodejs
+  path: app/router
+  properties:
+    COOKIE_BACKWARD_COMPATIBILITY: true
+    OWN_SAP_CLOUD_SERVICE: '["io.vianta.capmtxtrial"]'
+    SEND_XFRAMEOPTIONS: false
+    TENANT_HOST_PATTERN: ^(.*)-${default-uri}
+  requires:
+  - name: capmtxtrial-uaa
+  - name: capmtxtrial-registry
+  - name: srv-api
+    group: destinations
+    properties:
+      forwardAuthToken: true
+      name: srv-api
+      url: ~{srv-url}
+  - name: capmtxtrial-destination
+  - name: capmtxtrial-html5-repo-runtime
+  - name: mtx-api
+    group: destinations
+    properties:
+      name: mtx-api
+      url: ~{mtx-url}
+  provides:
+  - name: app-api
+    properties:
+      app-protocol: ${protocol}
+      app-uri: ${default-uri}
+      application: ${app-name}
+      url: ${default-url}
+  parameters:
+    buildpack: nodejs_buildpack
+    disk-quota: 256M
+    keep-existing-routes: true
+    memory: 256M
+    routes:
+    - route: '*-${default-uri}'
+
+# ── Destination Content Deployer ──────────────────────────────────────────────
+- name: capmtxtrial-destination-content
+  type: com.sap.application.content
+  requires:
+  - name: capmtxtrial-destination
+    parameters:
+      content-target: true
+  - name: capmtxtrial-html5-repo-host
+    parameters:
+      service-key:
+        name: capmtxtrial-html5-repo-host-key
+  - name: capmtxtrial-uaa
+    parameters:
+      service-key:
+        name: capmtxtrial-uaa-key
+  parameters:
+    content:
+      subaccount:
+        destinations:
+        - Name: capmtxtrial-html5-repo-host
+          ServiceInstanceName: capmtxtrial-html5-repo-host
+          ServiceKeyName: capmtxtrial-html5-repo-host-key
+          sap.cloud.service: io.vianta.capmtxtrial
+        - Authentication: OAuth2UserTokenExchange
+          Name: capmtxtrial-uaa
+          ServiceInstanceName: capmtxtrial-uaa
+          ServiceKeyName: capmtxtrial-uaa-key
+          sap.cloud.service: io.vianta.capmtxtrial
+        existing_destinations_policy: update
+  build-parameters:
+    no-source: true
+
+# ── HTML5 UI Deployer ─────────────────────────────────────────────────────────
+- name: capmtxtrial-ui-deployer
+  type: com.sap.application.content
+  path: app
+  requires:
+  - name: capmtxtrial-html5-repo-host
+    parameters:
+      content-target: true
+  build-parameters:
+    build-result: resources
+    requires:
+    - artifacts:
+      - ioviantacapmtxtrialtasks.zip
+      name: ioviantacapmtxtrialtasks
+      target-path: resources/
+
+# ── UI5 App Module ────────────────────────────────────────────────────────────
+- name: ioviantacapmtxtrialtasks
+  type: html5
+  path: app/tasks
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
+
+# ── Resources (BTP Services) ──────────────────────────────────────────────────
+resources:
+
+# XSUAA – shared tenant mode for multitenancy
+- name: capmtxtrial-uaa
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      oauth2-configuration:
+        redirect-uris:
+        - https://*.cfapps.*.hana.ondemand.com/**
+        - https://*.hana.ondemand.com/**
+      tenant-mode: shared
+      xsappname: capmtxtrial-${org}-${space}
+    path: ./xs-security.json
+    service: xsuaa
+    service-plan: application
+
+# SaaS Registry – handles tenant subscribe/unsubscribe callbacks
+- name: capmtxtrial-registry
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      appName: capmtxtrial-${org}-${space}
+      appUrls:
+        callbackTimeoutMillis: 300000
+        getDependencies: ~{mtx-sidecar-api/mtx-sidecar-url}/-/cds/saas-provisioning/dependencies
+        onSubscription: ~{mtx-sidecar-api/mtx-sidecar-url}/-/cds/saas-provisioning/tenant/{tenantId}
+        onSubscriptionAsync: true
+        onUnSubscriptionAsync: true
+        onUpdateDependenciesAsync: true
+      category: Trial
+      description: Trial Multi-tenant CAP Task Manager
+      displayName: CAP MTX Trial
+      xsappname: capmtxtrial-${org}-${space}
+    service: saas-registry
+    service-plan: application
+  requires:
+  - name: mtx-sidecar-api
+
+# Service Manager – provisions per-tenant HDI containers
+- name: capmtxtrial-service-manager
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: service-manager
+    service-plan: container
+
+# Destination – used by approuter and for HTML5 runtime
+- name: capmtxtrial-destination
+  type: org.cloudfoundry.managed-service
+  parameters:
+    config:
+      HTML5Runtime_enabled: true
+      init_data:
+        instance:
+          destinations:
+          - Authentication: NoAuthentication
+            Name: ui5
+            ProxyType: Internet
+            Type: HTTP
+            URL: https://ui5.sap.com
+          - Authentication: NoAuthentication
+            HTML5.DynamicDestination: true
+            HTML5.ForwardAuthToken: true
+            Name: srv-api
+            ProxyType: Internet
+            Type: HTTP
+            URL: ~{srv-api/srv-url}
+          - Authentication: NoAuthentication
+            CEP.HTML5contentprovider: true
+            HTML5.DynamicDestination: true
+            HTML5.ForwardAuthToken: true
+            Name: capmtxtrial-rt
+            ProxyType: Internet
+            Type: HTTP
+            URL: ~{app-api/url}
+          existing_destinations_policy: update
+    service: destination
+    service-plan: lite
+  requires:
+  - name: srv-api
+  - name: app-api
+
+# HTML5 Apps Repo – hosts the UI5 bundles
+- name: capmtxtrial-html5-repo-host
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-plan: app-host
+
+- name: capmtxtrial-html5-repo-runtime
+  type: org.cloudfoundry.managed-service
+  parameters:
+    service: html5-apps-repo
+    service-plan: app-runtime
+
+parameters:
+  appname: capmtxtrial
+  deploy_mode: html5-repo
+  enable-parallel-deployments: true
+
+build-parameters:
+  before-all:
+  - builder: custom
+    commands:
+    - npm install
+    - node --max-old-space-size=4096 node_modules/.bin/tsc --build
+    - node --max-old-space-size=4096 node_modules/.bin/cds build --production

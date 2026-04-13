@@ -1,0 +1,1244 @@
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:23.816838] Added process: "web" (STDOUT, API)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:23.824312] Created app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:23.922120] Updating process: "web" (STDOUT, API)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:23.984919] Scaling process: "web" (STDOUT, API)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:47.203440] Uploading app package for app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:47.416663] Updated app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:57.084903] Creating build for app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:57.444930] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:57.500390] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:57.500476] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance f4a9b964-f520-4863-a318-27d07bb5ee19 (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:58.210121] Security group rules were updated (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:58.393767] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance f4a9b964-f520-4863-a318-27d07bb5ee19 (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:59.052852] Downloading app package... (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:47:59.947540] Downloaded app package (5.4M) (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:00.059870] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:00.394372] -----> Bootstrapping python (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:00.394388] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:00.394470] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:04.522803] -----> Installing binaries (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:04.523172] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:04.523187] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:04.523200] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:04.523250] -----> Installing node 24.13.0 (STDOUT, STG)#
+#2026 04 12 13:48:06.982#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26295#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:04.523462] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/2f5692219fecc3eee6e6d507a6bfe7b9/node_24.13.0_linux_x64_cflinuxfs4_a816dee1.tgz] (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.010117] Using default npm version: 11.6.2 (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.010149] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.010384] Copy [/tmp/buildpacks/978cee5ec9c58000/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.363816] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.363852] -----> Creating runtime environment (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366210] NODE_ENV=production (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366225] NODE_HOME=/tmp/contents3319219865/deps/0/node (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366235] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366238] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366246] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366249] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366369] -----> Building dependencies (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366378] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:07.366426] Rebuilding any native modules (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.114157] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.116439] npm notice (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.116457] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.116462] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.116465] npm notice To update run: npm install -g npm@11.12.1 (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.116467] npm notice (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.193792] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.784534] up to date in 512ms (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.784782] 27 packages are looking for funding (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:08.784851] run `npm fund` for details (STDOUT, STG)#
+#2026 04 12 13:48:16.993#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26305#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:09.645899] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 04 12 13:48:26.970#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26309#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:19.922597] Exit status 0 (STDOUT, STG)#
+#2026 04 12 13:48:26.970#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26309#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:19.922639] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 04 12 13:48:26.970#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26309#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:19.922702] Uploading droplet... (STDOUT, STG)#
+#2026 04 12 13:48:26.970#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26309#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:19.922985] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 04 12 13:48:26.970#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26309#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:19.966594] Uploaded build artifacts cache (218B) (STDOUT, STG)#
+#2026 04 12 13:48:26.970#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26309#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:20.760029] Creating droplet for app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:48:26.970#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26309#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:25.828573] Uploaded droplet (60.8M) (STDOUT, STG)#
+#2026 04 12 13:48:26.970#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26309#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:25.851567] Uploading complete (STDOUT, STG)#
+#2026 04 12 13:48:37.055#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26318#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:26.951459] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance f4a9b964-f520-4863-a318-27d07bb5ee19 (STDOUT, STG)#
+#2026 04 12 13:48:37.055#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26318#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:26.951494] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance f4a9b964-f520-4863-a318-27d07bb5ee19 (STDOUT, STG)#
+#2026 04 12 13:48:37.055#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26318#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:27.005139] Staging complete for build f4a9b964-f520-4863-a318-27d07bb5ee19 (STDOUT, API)#
+#2026 04 12 13:48:37.055#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26318#
+[PollStageAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:29.562613] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance f4a9b964-f520-4863-a318-27d07bb5ee19 (STDOUT, STG)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:37.138400] Updated app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 ({:droplet_guid=>"1856a5b5-fa7d-45f5-9e4a-1922d97e875a"}) (STDOUT, API)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:37.354652] Creating revision for app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:37.390567] Starting app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:37.573757] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance c1d506dd-b4a3-45f1-7fac-31a0 (STDOUT, CELL)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:38.251915] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:38.338376] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance c1d506dd-b4a3-45f1-7fac-31a0 (STDOUT, CELL)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:39.080300] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.109589] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.109947] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.225208] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.431228] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.883324] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.883346] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.971394] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977787] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977806] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977814] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977821] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977824] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977829] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977832] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977835] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977838] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977841] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977843] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977846] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977850] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977854] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:43.977858] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:48:47.053#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26326#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:44.063196] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:50.325060] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance c1d506dd-b4a3-45f1-7fac-31a0 (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:50.325104] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance c1d506dd-b4a3-45f1-7fac-31a0 (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:50.328078] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:50.339321] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"c1d506dd-b4a3-45f1-7fac-31a0", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1776001730306471546, "version"=>"7c8f495d-443b-4b36-8ae7-57a7ee58a1c3"} (STDOUT, API)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:50.437807] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance 396fa0dc-67a9-483c-45d7-0375 (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:50.560381] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:51.205822] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:51.317522] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance 396fa0dc-67a9-483c-45d7-0375 (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:51.970996] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:52.533553] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance c1d506dd-b4a3-45f1-7fac-31a0 (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:56.199427] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:56.199559] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:48:57.017#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-9607#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:56.361920] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:56.582378] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.025498] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.025524] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.113594] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119878] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119906] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119911] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119915] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119917] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119921] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119926] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119929] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119937] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119940] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119943] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119945] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119948] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119953] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.119957] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.166409] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.166433] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.166438] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.166442] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.166451] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:48:57.242009] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:03.633169] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance 396fa0dc-67a9-483c-45d7-0375 (STDOUT, CELL)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:03.633205] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance 396fa0dc-67a9-483c-45d7-0375 (STDOUT, CELL)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:03.639440] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:03.653584] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"396fa0dc-67a9-483c-45d7-0375", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1776001743616499714, "version"=>"7c8f495d-443b-4b36-8ae7-57a7ee58a1c3"} (STDOUT, API)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:03.738182] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance ea38affe-8eec-4222-5b51-8401 (STDOUT, CELL)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:03.854997] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:04.451926] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:04.525177] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance ea38affe-8eec-4222-5b51-8401 (STDOUT, CELL)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:05.085751] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:49:07.060#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26343#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:05.914979] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance 396fa0dc-67a9-483c-45d7-0375 (STDOUT, CELL)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:06.850907] Downloaded droplet (STDOUT, CELL)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:06.851074] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:06.968919] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.187861] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.629774] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.629804] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.711301] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716890] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716918] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716934] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716943] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716945] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716949] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716952] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716955] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716961] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716965] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716967] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716969] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716981] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716984] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716988] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755020] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755047] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755060] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755066] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755068] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.833512] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.285747] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance ea38affe-8eec-4222-5b51-8401 (STDOUT, CELL)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.285795] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance ea38affe-8eec-4222-5b51-8401 (STDOUT, CELL)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.305089] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.318301] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"ea38affe-8eec-4222-5b51-8401", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1776001754283144031, "version"=>"7c8f495d-443b-4b36-8ae7-57a7ee58a1c3"} (STDOUT, API)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.516569] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:49:17.135#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26350#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:16.631345] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance ea38affe-8eec-4222-5b51-8401 (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:06.850907] Downloaded droplet (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:06.851074] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:06.968919] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.187861] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.629774] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.629804] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.711301] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716890] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716918] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716934] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716943] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716945] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716949] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716952] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716955] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716961] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716965] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716967] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716969] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716981] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716984] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.716988] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755020] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755047] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755060] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755066] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.755068] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:07.833512] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.285747] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance ea38affe-8eec-4222-5b51-8401 (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.285795] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance ea38affe-8eec-4222-5b51-8401 (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.305089] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.318301] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"ea38affe-8eec-4222-5b51-8401", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1776001754283144031, "version"=>"7c8f495d-443b-4b36-8ae7-57a7ee58a1c3"} (STDOUT, API)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:14.516569] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:16.631345] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance ea38affe-8eec-4222-5b51-8401 (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:18.320160] Stopping app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:18.491886] Starting app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:18.722736] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance e55db634-b800-4074-7987-989a (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:19.451989] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:19.524944] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance e55db634-b800-4074-7987-989a (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:20.260659] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:24.119771] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:24.119934] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:24.239704] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:24.477862] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:24.931657] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:24.931684] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.029129] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035007] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035024] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035028] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035031] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035034] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035038] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035040] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035042] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035044] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035054] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035057] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035062] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035064] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035068] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.035071] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.068819] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.068845] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.068850] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.068853] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.068855] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:27.252#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26356#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:25.144803] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:31.407227] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance e55db634-b800-4074-7987-989a (STDOUT, CELL)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:31.407273] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance e55db634-b800-4074-7987-989a (STDOUT, CELL)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:31.415600] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:31.429832] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"e55db634-b800-4074-7987-989a", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1776001771390184810, "version"=>"3a8cf23b-9710-4b60-8d2c-c37e2ef50082"} (STDOUT, API)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:31.516750] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance fb52047b-3464-4b7d-43ec-e926 (STDOUT, CELL)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:31.635439] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:32.409987] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:32.489096] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance fb52047b-3464-4b7d-43ec-e926 (STDOUT, CELL)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:33.225814] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:49:37.240#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10577#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:33.805722] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance e55db634-b800-4074-7987-989a (STDOUT, CELL)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:37.350278] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:37.350414] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:37.471494] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:37.687163] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.136742] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.136772] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.222300] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.227993] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228012] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228016] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228019] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228021] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228024] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228026] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228029] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228032] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228034] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228036] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228037] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228039] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228045] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.228048] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.263093] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.263116] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.263122] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.263125] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.263127] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:38.338765] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:44.634647] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance fb52047b-3464-4b7d-43ec-e926 (STDOUT, CELL)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:44.634680] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance fb52047b-3464-4b7d-43ec-e926 (STDOUT, CELL)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:44.642383] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:44.655727] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"fb52047b-3464-4b7d-43ec-e926", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1776001784618031976, "version"=>"3a8cf23b-9710-4b60-8d2c-c37e2ef50082"} (STDOUT, API)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:44.777338] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance e5187495-7dce-446c-5c98-64b8 (STDOUT, CELL)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:44.888145] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:45.459546] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:45.549987] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance e5187495-7dce-446c-5c98-64b8 (STDOUT, CELL)#
+#2026 04 12 13:49:47.246#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26375#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:46.196045] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:46.989526] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance fb52047b-3464-4b7d-43ec-e926 (STDOUT, CELL)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:47.842277] Downloaded droplet (STDOUT, CELL)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:47.842469] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:47.961961] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.167777] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.613020] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.613048] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.698346] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704207] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704230] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704234] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704238] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704240] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704245] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704248] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704251] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704253] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704260] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704262] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704268] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704270] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704275] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704278] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747921] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747962] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747968] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747971] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747974] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.825139] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.229001] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance e5187495-7dce-446c-5c98-64b8 (STDOUT, CELL)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.229035] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance e5187495-7dce-446c-5c98-64b8 (STDOUT, CELL)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.251] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:49:57.272#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26379#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.262364] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"e5187495-7dce-446c-5c98-64b8", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1776001796225082160, "version"=>"3a8cf23b-9710-4b60-8d2c-c37e2ef50082"} (STDOUT, API)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:46.989526] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance fb52047b-3464-4b7d-43ec-e926 (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:47.842277] Downloaded droplet (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:47.842469] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:47.961961] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.167777] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.613020] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.613048] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.698346] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704207] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704230] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704234] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704238] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704240] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704245] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704248] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704251] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704253] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704260] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704262] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704268] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704270] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704275] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.704278] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747921] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747962] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747968] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747971] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.747974] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:48.825139] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.229001] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance e5187495-7dce-446c-5c98-64b8 (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.229035] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance e5187495-7dce-446c-5c98-64b8 (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.251] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.262364] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"e5187495-7dce-446c-5c98-64b8", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1776001796225082160, "version"=>"3a8cf23b-9710-4b60-8d2c-c37e2ef50082"} (STDOUT, API)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:56.483796] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:58.691568] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance e5187495-7dce-446c-5c98-64b8 (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:58.859945] Stopping app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:59.039662] Starting app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:59.282510] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 9b4e513c-87f8-40a1-53c8-88fa (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:49:59.997753] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:00.085355] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 9b4e513c-87f8-40a1-53c8-88fa (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:00.317228] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:04.364623] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:04.364749] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:04.478959] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:04.702382] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.145083] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.145107] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.240337] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246154] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246177] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246181] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246185] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246188] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246191] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246194] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246206] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246209] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246212] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246214] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246219] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246224] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246227] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.246230] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.290347] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.290374] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.290380] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.290383] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.290385] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:07.448#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26389#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:05.366308] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:11.893890] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 9b4e513c-87f8-40a1-53c8-88fa (STDOUT, CELL)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:11.893927] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 9b4e513c-87f8-40a1-53c8-88fa (STDOUT, CELL)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:11.902945] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:11.914782] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"9b4e513c-87f8-40a1-53c8-88fa", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1776001811876474131, "version"=>"a7033277-1f66-429f-84e8-edd9d5da21ee"} (STDOUT, API)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:12.008652] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance 57e75dd9-8e29-4030-5fbe-7af0 (STDOUT, CELL)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:12.113554] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:12.929612] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:13.035187] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance 57e75dd9-8e29-4030-5fbe-7af0 (STDOUT, CELL)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:13.799907] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:50:17.389#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26397#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:14.222091] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 9b4e513c-87f8-40a1-53c8-88fa (STDOUT, CELL)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:17.797064] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:17.797307] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:17.935759] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.169244] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.616498] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.616537] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.709783] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715566] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715594] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715597] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715604] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715607] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715610] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715613] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715614] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715620] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715625] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715627] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715629] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715631] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715634] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.715637] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.748709] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.748740] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.748745] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.748748] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.748751] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:18.826341] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:25.043906] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance 57e75dd9-8e29-4030-5fbe-7af0 (STDOUT, CELL)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:25.043951] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance 57e75dd9-8e29-4030-5fbe-7af0 (STDOUT, CELL)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:25.050175] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:25.061356] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"57e75dd9-8e29-4030-5fbe-7af0", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1776001825026437993, "version"=>"a7033277-1f66-429f-84e8-edd9d5da21ee"} (STDOUT, API)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:25.153629] Cell 684caff8-89cd-492b-be01-b3d0835f1763 creating container for instance 9f694727-c6ca-46ee-6157-725e (STDOUT, CELL)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:25.280844] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:25.901007] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:25.994076] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully created container for instance 9f694727-c6ca-46ee-6157-725e (STDOUT, CELL)#
+#2026 04 12 13:50:27.368#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26402#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:26.511178] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:27.595984] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 57e75dd9-8e29-4030-5fbe-7af0 (STDOUT, CELL)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:28.329431] Downloaded droplet (STDOUT, CELL)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:28.329810] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:28.429958] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:28.639087] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.109707] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.109739] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.193814] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200184] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200210] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200216] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200219] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200222] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200227] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200230] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200233] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200235] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200237] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200240] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200242] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200248] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200252] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200256] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251885] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251917] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251921] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251929] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251932] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.331275] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.354693] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 9f694727-c6ca-46ee-6157-725e (STDOUT, CELL)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.354727] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 9f694727-c6ca-46ee-6157-725e (STDOUT, CELL)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.372963] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.386834] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"9f694727-c6ca-46ee-6157-725e", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1776001835351327471, "version"=>"a7033277-1f66-429f-84e8-edd9d5da21ee"} (STDOUT, API)#
+#2026 04 12 13:50:37.426#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26411#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.600557] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:27.595984] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance 57e75dd9-8e29-4030-5fbe-7af0 (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:28.329431] Downloaded droplet (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:28.329810] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:28.429958] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:28.639087] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.109707] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.109739] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.193814] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200184] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200210] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200216] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200219] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200222] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200227] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200230] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200233] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200235] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200237] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200240] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200242] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200248] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200252] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.200256] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251885] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251917] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251921] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251929] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.251932] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:29.331275] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.354693] Cell 684caff8-89cd-492b-be01-b3d0835f1763 stopping instance 9f694727-c6ca-46ee-6157-725e (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.354727] Cell 684caff8-89cd-492b-be01-b3d0835f1763 destroying container for instance 9f694727-c6ca-46ee-6157-725e (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.372963] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.386834] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"9f694727-c6ca-46ee-6157-725e", "index"=>0, "cell_id"=>"684caff8-89cd-492b-be01-b3d0835f1763", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1776001835351327471, "version"=>"a7033277-1f66-429f-84e8-edd9d5da21ee"} (STDOUT, API)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:35.600557] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:37.697776] Cell 684caff8-89cd-492b-be01-b3d0835f1763 successfully destroyed container for instance 9f694727-c6ca-46ee-6157-725e (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:39.603994] Stopping app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:39.775317] Starting app with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 (STDOUT, API)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:40.050256] Cell c839c7b1-088e-41af-b9b7-66256aacd457 creating container for instance f6bc4ad2-a4e4-412f-6b97-ea7b (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:40.778777] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:40.997237] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully created container for instance f6bc4ad2-a4e4-412f-6b97-ea7b (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:41.552739] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:46.788769] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:46.789151] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:46.899463] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:47.554#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26417#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.107410] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.567382] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.567411] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.659388] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666464] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666485] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666492] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666496] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666499] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666504] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666506] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666509] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666511] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666513] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666516] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666518] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666521] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666528] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.666531] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.683366] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.683385] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.683390] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.683392] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.683394] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:47.766974] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:54.555099] Cell c839c7b1-088e-41af-b9b7-66256aacd457 stopping instance f6bc4ad2-a4e4-412f-6b97-ea7b (STDOUT, CELL)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:54.555142] Cell c839c7b1-088e-41af-b9b7-66256aacd457 destroying container for instance f6bc4ad2-a4e4-412f-6b97-ea7b (STDOUT, CELL)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:54.555916] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:54.570740] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"f6bc4ad2-a4e4-412f-6b97-ea7b", "index"=>0, "cell_id"=>"c839c7b1-088e-41af-b9b7-66256aacd457", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>1, "crash_timestamp"=>1776001854531808058, "version"=>"1adfde6b-16ef-48b7-ab32-63e256a086a5"} (STDOUT, API)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:54.664608] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 creating container for instance 292f6549-7a49-4583-6388-814f (STDOUT, CELL)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:54.785751] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:55.403764] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:55.493201] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully created container for instance 292f6549-7a49-4583-6388-814f (STDOUT, CELL)#
+#2026 04 12 13:50:57.508#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-10597#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:56.613530] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:50:56.913602] Cell c839c7b1-088e-41af-b9b7-66256aacd457 successfully destroyed container for instance f6bc4ad2-a4e4-412f-6b97-ea7b (STDOUT, CELL)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:00.714520] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:00.714704] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:00.835602] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.049530] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.512839] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.512861] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.612793] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618599] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618624] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618629] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618632] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618635] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618638] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618645] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618647] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618649] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618652] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618654] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618657] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618659] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618662] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.618665] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.671256] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.671285] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.671290] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.671296] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.671298] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:07.477#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26430#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:01.749378] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:08.101666] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 stopping instance 292f6549-7a49-4583-6388-814f (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:08.101707] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 destroying container for instance 292f6549-7a49-4583-6388-814f (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:08.106866] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:08.119261] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"292f6549-7a49-4583-6388-814f", "index"=>0, "cell_id"=>"d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>2, "crash_timestamp"=>1776001868084935387, "version"=>"1adfde6b-16ef-48b7-ab32-63e256a086a5"} (STDOUT, API)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:08.221830] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 creating container for instance de84f22e-1dbe-4563-782e-901a (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:08.336970] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:08.921068] Security group rules were updated (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:09.009069] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully created container for instance de84f22e-1dbe-4563-782e-901a (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:09.367922] Downloading droplet... (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:10.855367] Cell d1cc041a-d5a1-41d6-b9f6-6cda736ce3f0 successfully destroyed container for instance 292f6549-7a49-4583-6388-814f (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:13.556358] Downloaded droplet (60.8M) (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:13.556575] Starting health monitoring of container (STDOUT, CELL)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:13.680745] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:13.893215] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.375713] > capmtxtrial-mtx-sidecar@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.375745] > cds-serve (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.479642] [cds] - bootstrapping from { file: 'server.js' } (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485524] /home/vcap/app/server.js:3 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485555] cds.serve('all').catch((err) => { (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485559] ^ (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485562] TypeError: cds.serve(...).catch is not a function (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485566] at Object.<anonymous> (/home/vcap/app/server.js:3:23) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485569] at Module._compile (node:internal/modules/cjs/loader:1761:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485571] at Object..js (node:internal/modules/cjs/loader:1893:10) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485576] at Module.load (node:internal/modules/cjs/loader:1481:32) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485578] at Module._load (node:internal/modules/cjs/loader:1300:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485581] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485583] at wrapModuleLoad (node:internal/modules/cjs/loader:245:24) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485585] at Module.require (node:internal/modules/cjs/loader:1504:12) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485587] at require (node:internal/modules/helpers:152:16) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485592] at exports._import (/home/vcap/app/node_modules/@sap/cds/lib/utils/cds-utils.js:321:21) (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.485595] Node.js v24.13.0 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.511784] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.511821] npm notice New minor version of npm available! 11.6.2 -> 11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.511827] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.511830] npm notice To update run: npm install -g npm@11.12.1 (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.511832] npm notice (STDERR, APP/PROC/WEB)#
+#2026 04 12 13:51:17.557#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26437#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:14.607711] Exit status 1 (STDOUT, APP/PROC/WEB)#
+#2026 04 12 13:51:27.566#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26444#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:20.918165] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 stopping instance de84f22e-1dbe-4563-782e-901a (STDOUT, CELL)#
+#2026 04 12 13:51:27.566#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26444#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:20.918205] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 destroying container for instance de84f22e-1dbe-4563-782e-901a (STDOUT, CELL)#
+#2026 04 12 13:51:27.566#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26444#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:20.938423] Process has crashed with type: "web" (STDOUT, API)#
+#2026 04 12 13:51:27.566#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26444#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:20.949678] App instance exited with guid c86f16a0-6b39-4198-9cbf-a185eeef0332 payload: {"instance"=>"de84f22e-1dbe-4563-782e-901a", "index"=>0, "cell_id"=>"77283d80-dfa7-40ba-ba4e-265aef112085", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 1", "crash_count"=>3, "crash_timestamp"=>1776001880914288893, "version"=>"1adfde6b-16ef-48b7-ab32-63e256a086a5"} (STDOUT, API)#
+#2026 04 12 13:51:27.566#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26444#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:21.185667] Exit status 137 (STDOUT, PROXY)#
+#2026 04 12 13:51:27.566#Z#DEBUG#13634702-3676-11f1-a34c-eeee0a98601f.capmtxtrial-mtx-sidecar#flowable-async-job-executor-thread-26444#
+[PollStartAppStatusExecution] c86f16a0-6b39-4198-9cbf-a185eeef0332 [2026-04-12T13:51:23.357693] Cell 77283d80-dfa7-40ba-ba4e-265aef112085 successfully destroyed container for instance de84f22e-1dbe-4563-782e-901a (STDOUT, CELL)#
