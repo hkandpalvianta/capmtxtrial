@@ -1,6 +1,0 @@
-ID,title,description,status,priority,dueDate
-f1a2b3c4-0001-0000-0000-000000000001,Setup CI pipeline,Configure GitHub Actions for automated builds and tests,Open,High,2026-05-01
-f1a2b3c4-0001-0000-0000-000000000002,Write unit tests,Add unit tests for the task service layer,InProgress,Medium,2026-04-30
-f1a2b3c4-0001-0000-0000-000000000003,Update documentation,Review and update README and API docs,Open,Low,2026-05-15
-f1a2b3c4-0001-0000-0000-000000000004,Fix login bug,Resolve intermittent XSUAA token refresh failure,Done,High,2026-04-20
-f1a2b3c4-0001-0000-0000-000000000005,Deploy to trial,First deployment to BTP trial account,Open,High,2026-04-25
