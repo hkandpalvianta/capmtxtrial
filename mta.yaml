@@ -287,4 +287,3 @@ build-parameters:
     - npm install
     - node --max-old-space-size=4096 node_modules/.bin/tsc --build
     - node --max-old-space-size=4096 node_modules/.bin/cds build --production
-    - cp -r gen/srv/_i18n gen/srv/srv/_i18n

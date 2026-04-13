@@ -1,1 +1,59 @@
-node_modules
+# Node.js dependencies and build outputs
+node_modules/
+gen/
+dist/
+coverage/
+.nyc_output/
+resources/
+app/*/dist/
+
+# CAP generated files
+**/edmx/
+**/bin/
+**/target/
+**/.mta/
+*.mtar
+
+# SQLite and DB files
+*.db
+*.sqlite*
+
+# Environment and config files
+.env
+.env.*
+.env.local
+.env.*.local
+default-env.json
+.cds-services.json
+.cdsrc-private.json
+cds-bindings.json
+connection.properties
+
+# IDE/editor files
+.vscode/
+.idea/
+.reloadtrigger
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log*
+gc_history*
+hs_err*
+
+# Miscellaneous
+mta_archives/
+*.zip
+*.mta
+@cds-models/
+
+# CDS formatter backup files
+*.bak
+
+# added by cds
+.cdsrc-private.json
+
+# ui5-tooling-modules bundle cache
+.ui5-tooling-modules/

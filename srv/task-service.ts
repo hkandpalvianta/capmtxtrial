@@ -15,7 +15,7 @@ export default class TaskService extends cds.ApplicationService {
       const task = await SELECT.one.from(Tasks, id);
       if (!task) return;
       if (['Done', 'Cancelled'].includes(task.status)) {
-        req.reject(409, 'TASK_LOCKED', [task.title, task.status]);
+        req.reject(409, 'TASK_LOCKED', undefined, [task.title, task.status]);
       }
     });
 
