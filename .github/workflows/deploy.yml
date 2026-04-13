@@ -1,0 +1,174 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  build:
+    name: Build MTA
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install root dependencies
+        run: npm install
+
+      - name: Install MTA Build Tool
+        run: npm install -g mbt
+
+      - name: Build MTA Archive
+        run: mbt build -p cf
+
+      - name: Upload MTA Archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: mta-archive
+          path: mta_archives/capmtxtrial_1.0.0.mtar
+          retention-days: 1
+
+  deploy:
+    name: Deploy to CF Trial
+    runs-on: ubuntu-latest
+    needs: build
+    environment: trial
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download MTA Archive
+        uses: actions/download-artifact@v4
+        with:
+          name: mta-archive
+          path: mta_archives/
+
+      - name: Install Cloud Foundry CLI
+        run: |
+          wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
+          echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
+          sudo apt-get update
+          sudo apt-get install -y cf8-cli
+
+      - name: Install CF MTA Plugin
+        run: cf install-plugin multiapps -f
+
+      - name: Login to Cloud Foundry
+        run: |
+          cf login \
+            -a ${{ vars.CF_API }} \
+            -u ${{ secrets.CF_USERNAME }} \
+            -p ${{ secrets.CF_PASSWORD }} \
+            -o ${{ vars.CF_ORG }} \
+            -s ${{ vars.CF_SPACE }}
+
+      - name: Deploy MTA
+        run: cf deploy mta_archives/capmtxtrial_1.0.0.mtar -f
+
+      - name: Re-map subscriber routes
+        # BTP trial does not support wildcard CF routes.
+        # List known subscriber subdomains in CF_SUBSCRIBER_SUBDOMAINS (space-separated).
+        # Example value: "subscriber1-tl6dpil2 subscriber3-hxrycd9o"
+        if: ${{ vars.CF_SUBSCRIBER_SUBDOMAINS != '' }}
+        run: |
+          BASE_HOSTNAME="0d6c044ftrial-dev-capmtxtrial-app"
+          DOMAIN="cfapps.us10-001.hana.ondemand.com"
+          for SUBDOMAIN in ${{ vars.CF_SUBSCRIBER_SUBDOMAINS }}; do
+            HOSTNAME="${SUBDOMAIN}-${BASE_HOSTNAME}"
+            echo "Mapping route: ${HOSTNAME}.${DOMAIN}"
+            cf map-route capmtxtrial-app "${DOMAIN}" --hostname "${HOSTNAME}"
+          done
+
+      - name: Upgrade tenant databases
+        # Discovers all subscriber tenants from Service Manager and runs
+        # cds-mtx upgrade on each one to apply any schema changes.
+        run: |
+          set -euo pipefail
+
+          # Get Service Manager credentials
+          cf create-service-key capmtxtrial-service-manager ci-sm-key 2>/dev/null || true
+          RAW_SM=$(cf service-key capmtxtrial-service-manager ci-sm-key)
+
+          SM_CLIENT_ID=$(echo "$RAW_SM"     | grep '"clientid"'     | head -1 | sed 's/.*: *"\(.*\)".*/\1/')
+          SM_CLIENT_SECRET=$(echo "$RAW_SM" | grep '"clientsecret"' | head -1 | sed 's/.*: *"\(.*\)".*/\1/')
+          SM_URL=$(echo "$RAW_SM"           | grep '"sm_url"'       | head -1 | sed 's/.*: *"\(.*\)".*/\1/')
+          SM_TOKEN_URL=$(echo "$RAW_SM"     | grep '"url"'          | head -1 | sed 's/.*: *"\(.*\)".*/\1/')
+
+          echo "::add-mask::${SM_CLIENT_SECRET}"
+
+          SM_TOKEN=$(curl -sS --max-time 30 -X POST "${SM_TOKEN_URL}/oauth/token" \
+            --data-urlencode "grant_type=client_credentials" \
+            --data-urlencode "client_id=${SM_CLIENT_ID}" \
+            --data-urlencode "client_secret=${SM_CLIENT_SECRET}" \
+            | jq -r '.access_token')
+
+          if [ -z "$SM_TOKEN" ] || [ "$SM_TOKEN" = "null" ]; then
+            echo "::error ::Failed to obtain Service Manager token"
+            exit 1
+          fi
+          echo "::add-mask::${SM_TOKEN}"
+
+          # Discover subscriber tenant IDs (exclude t0 — the provider tenant)
+          TENANT_IDS=$(curl -sS --max-time 30 "${SM_URL}/v1/service_instances" \
+            -H "Authorization: Bearer ${SM_TOKEN}" \
+            | jq -r '.items[].labels.tenant_id[0]' 2>/dev/null \
+            | grep -v '^t0$' \
+            | grep -v '^null$' \
+            | sort -u)
+
+          if [ -z "$TENANT_IDS" ]; then
+            echo "No subscriber tenants found — skipping upgrade"
+            exit 0
+          fi
+
+          echo "Tenants to upgrade:"
+          echo "$TENANT_IDS"
+
+          # Upgrade each tenant via a CF task on the sidecar
+          FAILED=""
+          for TENANT_ID in $TENANT_IDS; do
+            echo "--- Upgrading tenant: $TENANT_ID ---"
+            TASK_NAME="upgrade-${TENANT_ID:0:8}-${{ github.run_number }}"
+
+            cf run-task capmtxtrial-mtx-sidecar \
+              --command "cds-mtx upgrade ${TENANT_ID}" \
+              --name "${TASK_NAME}" \
+              -m 512M \
+              --wait || true
+
+            STATUS=$(cf tasks capmtxtrial-mtx-sidecar \
+              | awk -v n="${TASK_NAME}" '$2==n{print $3}' | head -1)
+            echo "Task status: $STATUS"
+
+            if [ "$STATUS" = "FAILED" ]; then
+              echo "::warning ::Tenant ${TENANT_ID} upgrade FAILED"
+              FAILED="${FAILED} ${TENANT_ID}"
+            else
+              echo "Tenant ${TENANT_ID} upgraded successfully"
+            fi
+          done
+
+          # Clean up the service key
+          cf delete-service-key capmtxtrial-service-manager ci-sm-key -f
+
+          if [ -n "$FAILED" ]; then
+            echo "::error ::Failed tenants:${FAILED}"
+            exit 1
+          fi
+
+          echo "All tenant upgrades completed successfully"
+
+      - name: Logout
+        if: always()
+        run: cf logout

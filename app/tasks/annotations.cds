@@ -1,5 +1,19 @@
 using TaskService from '../../srv/task-service';
 
+// ── Field labels ───────────────────────────────────────────────────────────────
+annotate TaskService.Tasks with {
+  ID          @title: '{i18n>Tasks_ID}';
+  title       @title: '{i18n>Tasks_title}';
+  description @title: '{i18n>Tasks_description}';
+  status      @title: '{i18n>Tasks_status}';
+  priority    @title: '{i18n>Tasks_priority}';
+  dueDate     @title: '{i18n>Tasks_dueDate}';
+  createdAt   @title: '{i18n>Tasks_createdAt}';
+  createdBy   @title: '{i18n>Tasks_createdBy}';
+  modifiedAt  @title: '{i18n>Tasks_modifiedAt}';
+  modifiedBy  @title: '{i18n>Tasks_modifiedBy}';
+}
+
 // ── List Report ────────────────────────────────────────────────────────────────
 annotate TaskService.Tasks with @(UI: {
   HeaderInfo         : {
