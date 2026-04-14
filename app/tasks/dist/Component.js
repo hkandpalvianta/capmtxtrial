@@ -1,2 +1,0 @@
-sap.ui.define(["sap/fe/core/AppComponent"],function(t){"use strict";const n=t.extend("io.vianta.capmtxtrial.tasks.Component",{metadata:{manifest:"json"},init:function n(){t.prototype.init.call(this)}});return n});
-//# sourceMappingURL=Component.js.map

@@ -2,16 +2,48 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [main]
+    branches: [main, quality]
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Target environment'
+        required: true
+        default: 'quality'
+        type: choice
+        options: [quality, development]
 
 env:
   NODE_VERSION: '20'
 
 jobs:
+  # ── Resolve which environment to deploy to ────────────────────────────────────
+  # branch main  → trial
+  # branch quality → quality
+  # manual trigger → uses the input selection
+  resolve-env:
+    name: Resolve Target Environment
+    runs-on: ubuntu-latest
+    outputs:
+      environment: ${{ steps.resolve.outputs.environment }}
+    steps:
+      - name: Resolve environment from branch or input
+        id: resolve
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ENV="${{ github.event.inputs.environment }}"
+          elif [ "${{ github.ref_name }}" = "main" ]; then
+            ENV="development"
+          else
+            ENV="quality"
+          fi
+          echo "Deploying to environment: $ENV"
+          echo "environment=$ENV" >> "$GITHUB_OUTPUT"
+
+  # ── Build ─────────────────────────────────────────────────────────────────────
   build:
     name: Build MTA
     runs-on: ubuntu-latest
+    needs: resolve-env
 
     steps:
       - name: Checkout repository
@@ -38,11 +70,12 @@ jobs:
           path: mta_archives/capmtxtrial_1.0.0.mtar
           retention-days: 1
 
+  # ── Deploy ────────────────────────────────────────────────────────────────────
   deploy:
-    name: Deploy to CF Trial
+    name: Deploy to ${{ needs.resolve-env.outputs.environment }}
     runs-on: ubuntu-latest
-    needs: build
-    environment: trial
+    needs: [resolve-env, build]
+    environment: ${{ needs.resolve-env.outputs.environment }}
 
     steps:
       - name: Checkout repository
@@ -78,12 +111,12 @@ jobs:
 
       - name: Re-map subscriber routes
         # BTP trial does not support wildcard CF routes.
-        # List known subscriber subdomains in CF_SUBSCRIBER_SUBDOMAINS (space-separated).
+        # Set CF_SUBSCRIBER_SUBDOMAINS in each GitHub environment (space-separated).
         # Example value: "subscriber1-tl6dpil2 subscriber3-hxrycd9o"
         if: ${{ vars.CF_SUBSCRIBER_SUBDOMAINS != '' }}
         run: |
-          BASE_HOSTNAME="0d6c044ftrial-dev-capmtxtrial-app"
-          DOMAIN="cfapps.us10-001.hana.ondemand.com"
+          BASE_HOSTNAME="${{ vars.CF_APP_HOSTNAME }}"
+          DOMAIN="${{ vars.CF_DOMAIN }}"
           for SUBDOMAIN in ${{ vars.CF_SUBSCRIBER_SUBDOMAINS }}; do
             HOSTNAME="${SUBDOMAIN}-${BASE_HOSTNAME}"
             echo "Mapping route: ${HOSTNAME}.${DOMAIN}"
@@ -91,12 +124,10 @@ jobs:
           done
 
       - name: Upgrade tenant databases
-        # Discovers all subscriber tenants from Service Manager and runs
-        # cds-mtx upgrade on each one to apply any schema changes.
+        # Runs cds-mtx upgrade for every subscriber tenant discovered via Service Manager.
         run: |
           set -euo pipefail
 
-          # Get Service Manager credentials
           cf create-service-key capmtxtrial-service-manager ci-sm-key 2>/dev/null || true
           RAW_SM=$(cf service-key capmtxtrial-service-manager ci-sm-key)
 
@@ -119,7 +150,6 @@ jobs:
           fi
           echo "::add-mask::${SM_TOKEN}"
 
-          # Discover subscriber tenant IDs (exclude t0 — the provider tenant)
           TENANT_IDS=$(curl -sS --max-time 30 "${SM_URL}/v1/service_instances" \
             -H "Authorization: Bearer ${SM_TOKEN}" \
             | jq -r '.items[].labels.tenant_id[0]' 2>/dev/null \
@@ -129,13 +159,13 @@ jobs:
 
           if [ -z "$TENANT_IDS" ]; then
             echo "No subscriber tenants found — skipping upgrade"
+            cf delete-service-key capmtxtrial-service-manager ci-sm-key -f
             exit 0
           fi
 
           echo "Tenants to upgrade:"
           echo "$TENANT_IDS"
 
-          # Upgrade each tenant via a CF task on the sidecar
           FAILED=""
           for TENANT_ID in $TENANT_IDS; do
             echo "--- Upgrading tenant: $TENANT_ID ---"
@@ -159,7 +189,6 @@ jobs:
             fi
           done
 
-          # Clean up the service key
           cf delete-service-key capmtxtrial-service-manager ci-sm-key -f
 
           if [ -n "$FAILED" ]; then
